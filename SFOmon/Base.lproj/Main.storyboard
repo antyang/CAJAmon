@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="1109.5" y="2407.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Monster View-->
         <scene sceneID="ZWa-mf-RC8">
             <objects>
-                <viewController id="Rkc-Pt-tV0" sceneMemberID="viewController">
+                <viewController id="Rkc-Pt-tV0" customClass="MonsterView" customModule="SFOmon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3AF-bS-svh"/>
                         <viewControllerLayoutGuide type="bottom" id="Pvz-Wi-jR7"/>
@@ -91,7 +91,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="fhK-98-WA5">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="epY-mT-kke"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="epY-mT-kke">
+                            <connections>
+                                <action selector="done:" destination="Rkc-Pt-tV0" id="NrD-9n-w7U"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -149,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="1930.5" y="2407.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Coupon View-->
         <scene sceneID="RgM-FZ-bzq">
             <objects>
-                <viewController id="ANO-MR-wOa" sceneMemberID="viewController">
+                <viewController id="ANO-MR-wOa" customClass="CouponView" customModule="SFOmon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YHv-1s-z9U"/>
                         <viewControllerLayoutGuide type="bottom" id="B4Y-vP-030"/>
@@ -161,8 +165,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QYt-5N-wxP">
-                                <rect key="frame" x="67" y="270" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coupon.png" translatesAutoresizingMaskIntoConstraints="NO" id="QYt-5N-wxP">
+                                <rect key="frame" x="56" y="251" width="251" height="147"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You've defeated somethingmon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qs-62-16M">
                                 <rect key="frame" x="45" y="79" width="285" height="21"/>
@@ -177,19 +181,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qrcode.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qdt-Uw-lfe">
-                                <rect key="frame" x="137" y="421" width="100" height="100"/>
+                                <rect key="frame" x="137" y="414" width="100" height="100"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="NuW-5b-KK4">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="GJQ-86-KPK"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="GJQ-86-KPK">
+                            <connections>
+                                <action selector="done:" destination="ANO-MR-wOa" id="Tvz-7x-fy4"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3d-zV-X8l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2259.5" y="3231.5"/>
+            <point key="canvasLocation" x="2219.5" y="3220.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s9g-i1-MCI">
@@ -266,14 +274,14 @@
                         <viewControllerLayoutGuide type="bottom" id="pUu-hD-ePU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zUo-PT-9xT">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxX-VO-JeQ">
-                                <rect key="frame" x="42" y="28" width="317" height="239"/>
+                                <rect key="frame" x="41" y="28" width="317" height="157"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="yxX-VO-JeQ" secondAttribute="height" multiplier="317:239" id="pcU-py-kSG"/>
+                                    <constraint firstAttribute="width" secondItem="yxX-VO-JeQ" secondAttribute="height" multiplier="317:239" constant="108.76150627615061" id="pcU-py-kSG"/>
                                 </constraints>
                                 <string key="text">Simply walking around the terminal and fight different cajamons.
 
@@ -284,16 +292,16 @@ Earn levels and coupons by defeating cajamons!</string>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yxX-VO-JeQ" firstAttribute="leading" secondItem="zUo-PT-9xT" secondAttribute="leadingMargin" constant="26" id="7xN-tY-zgE"/>
-                            <constraint firstAttribute="centerX" secondItem="yxX-VO-JeQ" secondAttribute="centerX" constant="-0.5" id="853-YZ-v89"/>
+                            <constraint firstItem="yxX-VO-JeQ" firstAttribute="leading" secondItem="zUo-PT-9xT" secondAttribute="leadingMargin" constant="25" id="7xN-tY-zgE"/>
+                            <constraint firstAttribute="centerX" secondItem="yxX-VO-JeQ" secondAttribute="centerX" constant="0.5" id="853-YZ-v89"/>
                             <constraint firstItem="yxX-VO-JeQ" firstAttribute="top" secondItem="OHa-7w-4lX" secondAttribute="bottom" constant="8" id="f5T-qB-VtB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yxX-VO-JeQ" secondAttribute="trailing" constant="25" id="kgg-ye-a2h"/>
-                            <constraint firstAttribute="centerY" secondItem="yxX-VO-JeQ" secondAttribute="centerY" constant="2.5" id="pvR-a8-43G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yxX-VO-JeQ" secondAttribute="trailing" constant="26" id="kgg-ye-a2h"/>
+                            <constraint firstAttribute="centerY" secondItem="yxX-VO-JeQ" secondAttribute="centerY" constant="18.5" id="pvR-a8-43G"/>
                         </constraints>
                     </view>
-                    <value key="contentSizeForViewInPopover" type="size" width="400" height="300"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="400" height="250"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="400" height="300"/>
+                    <size key="freeformSize" width="400" height="250"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pvS-hg-EeY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -605,11 +613,12 @@ Earn levels and coupons by defeating cajamons!</string>
     <resources>
         <image name="025.png" width="96" height="96"/>
         <image name="364.png" width="96" height="96"/>
+        <image name="coupon.png" width="940" height="704"/>
         <image name="frap.jpeg" width="180" height="280"/>
         <image name="qrcode.png" width="407" height="407"/>
         <image name="squirtle.jpg" width="630" height="756"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7d2-5a-DYr"/>
+        <segue reference="Usk-sJ-QcV"/>
     </inferredMetricsTieBreakers>
 </document>

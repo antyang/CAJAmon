@@ -12,6 +12,8 @@
 	<dict>
 		<key>504AC2959E5CB3CFD539A7D08B6C3D767C5204E6</key>
 		<string>https://github.com/antyang/CAJAmon.git</string>
+		<key>96F1EAF0F09E98E6D3EB4ADE7ABE2517AC7BCD82</key>
+		<string>https://github.com/antyang/js_balls.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SFOmon.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>504AC2959E5CB3CFD539A7D08B6C3D767C5204E6</key>
 		<string>../..</string>
+		<key>96F1EAF0F09E98E6D3EB4ADE7ABE2517AC7BCD82</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/antyang/CAJAmon.git</string>
@@ -28,6 +32,14 @@
 	<string>504AC2959E5CB3CFD539A7D08B6C3D767C5204E6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96F1EAF0F09E98E6D3EB4ADE7ABE2517AC7BCD82</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
