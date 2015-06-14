@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032085C71B2DA61300F666B2 /* CAJADexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032085C61B2DA61300F666B2 /* CAJADexTableViewController.swift */; };
+		032085C91B2DA62500F666B2 /* CouponTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032085C81B2DA62500F666B2 /* CouponTableViewController.swift */; };
 		0379D4C91B2CEAA600F6478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4C81B2CEAA600F6478D /* AppDelegate.swift */; };
 		0379D4CC1B2CEAA600F6478D /* SFOmon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4CA1B2CEAA600F6478D /* SFOmon.xcdatamodeld */; };
 		0379D4CE1B2CEAA600F6478D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4CD1B2CEAA600F6478D /* ViewController.swift */; };
@@ -14,6 +16,15 @@
 		0379D4D31B2CEAA600F6478D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4D21B2CEAA600F6478D /* Images.xcassets */; };
 		0379D4D61B2CEAA600F6478D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4D41B2CEAA600F6478D /* LaunchScreen.xib */; };
 		0379D4E21B2CEAA600F6478D /* SFOmonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4E11B2CEAA600F6478D /* SFOmonTests.swift */; };
+		0379D4EF1B2D3BA000F6478D /* backgroundsfo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4EE1B2D3BA000F6478D /* backgroundsfo1.png */; };
+		0379D4F31B2D57BC00F6478D /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4F21B2D57BC00F6478D /* PokemonGB.ttf */; };
+		0379D4F41B2D57BC00F6478D /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4F21B2D57BC00F6478D /* PokemonGB.ttf */; };
+		0379D4F61B2D6C9500F6478D /* howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F51B2D6C9500F6478D /* howItWorks.swift */; };
+		0379D4F71B2D6C9500F6478D /* howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F51B2D6C9500F6478D /* howItWorks.swift */; };
+		0379D4F91B2D731400F6478D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F81B2D731400F6478D /* MapViewController.swift */; };
+		0379D4FA1B2D731400F6478D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F81B2D731400F6478D /* MapViewController.swift */; };
+		0379D4FC1B2D896D00F6478D /* pokebanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4FB1B2D896D00F6478D /* pokebanner.png */; };
+		0379D4FD1B2D896D00F6478D /* pokebanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4FB1B2D896D00F6478D /* pokebanner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032085C61B2DA61300F666B2 /* CAJADexTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAJADexTableViewController.swift; sourceTree = "<group>"; };
+		032085C81B2DA62500F666B2 /* CouponTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponTableViewController.swift; sourceTree = "<group>"; };
 		0379D4C31B2CEAA600F6478D /* SFOmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFOmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0379D4C71B2CEAA600F6478D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0379D4C81B2CEAA600F6478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +51,12 @@
 		0379D4DB1B2CEAA600F6478D /* SFOmonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFOmonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0379D4E01B2CEAA600F6478D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0379D4E11B2CEAA600F6478D /* SFOmonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFOmonTests.swift; sourceTree = "<group>"; };
+		0379D4ED1B2D383900F6478D /* HelveticaNeue.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.dfont; sourceTree = "<group>"; };
+		0379D4EE1B2D3BA000F6478D /* backgroundsfo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundsfo1.png; sourceTree = "<group>"; };
+		0379D4F21B2D57BC00F6478D /* PokemonGB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonGB.ttf; sourceTree = "<group>"; };
+		0379D4F51B2D6C9500F6478D /* howItWorks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = howItWorks.swift; sourceTree = "<group>"; };
+		0379D4F81B2D731400F6478D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0379D4FB1B2D896D00F6478D /* pokebanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokebanner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,10 @@
 			children = (
 				0379D4C81B2CEAA600F6478D /* AppDelegate.swift */,
 				0379D4CD1B2CEAA600F6478D /* ViewController.swift */,
+				0379D4F51B2D6C9500F6478D /* howItWorks.swift */,
+				032085C61B2DA61300F666B2 /* CAJADexTableViewController.swift */,
+				0379D4F81B2D731400F6478D /* MapViewController.swift */,
+				032085C81B2DA62500F666B2 /* CouponTableViewController.swift */,
 				0379D4CF1B2CEAA600F6478D /* Main.storyboard */,
 				0379D4D21B2CEAA600F6478D /* Images.xcassets */,
 				0379D4D41B2CEAA600F6478D /* LaunchScreen.xib */,
@@ -93,6 +116,10 @@
 		0379D4C61B2CEAA600F6478D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0379D4EE1B2D3BA000F6478D /* backgroundsfo1.png */,
+				0379D4FB1B2D896D00F6478D /* pokebanner.png */,
+				0379D4F21B2D57BC00F6478D /* PokemonGB.ttf */,
+				0379D4ED1B2D383900F6478D /* HelveticaNeue.dfont */,
 				0379D4C71B2CEAA600F6478D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,8 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379D4FC1B2D896D00F6478D /* pokebanner.png in Resources */,
+				0379D4F31B2D57BC00F6478D /* PokemonGB.ttf in Resources */,
 				0379D4D11B2CEAA600F6478D /* Main.storyboard in Resources */,
 				0379D4D61B2CEAA600F6478D /* LaunchScreen.xib in Resources */,
+				0379D4EF1B2D3BA000F6478D /* backgroundsfo1.png in Resources */,
 				0379D4D31B2CEAA600F6478D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379D4FD1B2D896D00F6478D /* pokebanner.png in Resources */,
+				0379D4F41B2D57BC00F6478D /* PokemonGB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032085C91B2DA62500F666B2 /* CouponTableViewController.swift in Sources */,
+				0379D4F61B2D6C9500F6478D /* howItWorks.swift in Sources */,
 				0379D4CE1B2CEAA600F6478D /* ViewController.swift in Sources */,
+				032085C71B2DA61300F666B2 /* CAJADexTableViewController.swift in Sources */,
 				0379D4C91B2CEAA600F6478D /* AppDelegate.swift in Sources */,
+				0379D4F91B2D731400F6478D /* MapViewController.swift in Sources */,
 				0379D4CC1B2CEAA600F6478D /* SFOmon.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0379D4F71B2D6C9500F6478D /* howItWorks.swift in Sources */,
+				0379D4FA1B2D731400F6478D /* MapViewController.swift in Sources */,
 				0379D4E21B2CEAA600F6478D /* SFOmonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +453,7 @@
 				0379D4E71B2CEAA600F6478D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0379D4E81B2CEAA600F6478D /* Build configuration list for PBXNativeTarget "SFOmonTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +462,7 @@
 				0379D4EA1B2CEAA600F6478D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
