@@ -53,7 +53,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Rkc-Pt-tV0" kind="presentation" identifier="checkMonster" id="bBv-OS-Zpb"/>
+                                    <segue destination="ZK4-ZO-rf5" kind="presentation" identifier="checkMonster" id="bBv-OS-Zpb"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -67,7 +67,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lTU-Fh-Hkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1109.5" y="2343.5"/>
+            <point key="canvasLocation" x="1109.5" y="2407.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZWa-mf-RC8">
@@ -82,34 +82,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="squirtle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xy6-nK-daC">
-                                <rect key="frame" x="100" y="28" width="174" height="170"/>
+                                <rect key="frame" x="101" y="93" width="174" height="170"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kld-YW-FrV">
-                                <rect key="frame" x="130" y="226" width="114" height="21"/>
+                                <rect key="frame" x="131" y="291" width="114" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUH-ol-wgn">
-                                <rect key="frame" x="53" y="280" width="106" height="21"/>
+                                <rect key="frame" x="54" y="345" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ww1-7V-Qo0">
-                                <rect key="frame" x="53" y="309" width="106" height="21"/>
+                                <rect key="frame" x="54" y="374" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ve-VD-4PF">
-                                <rect key="frame" x="53" y="338" width="106" height="21"/>
+                                <rect key="frame" x="54" y="403" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="df2-Jw-Ky8">
-                                <rect key="frame" x="53" y="367" width="106" height="21"/>
+                                <rect key="frame" x="54" y="432" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -117,11 +117,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fhK-98-WA5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="epY-mT-kke"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Jf-C6-Tt1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1109.5" y="3154.5"/>
+            <point key="canvasLocation" x="1192.5" y="3220.5"/>
         </scene>
         <!--Coupons-->
         <scene sceneID="jWb-4h-hrf">
@@ -132,12 +135,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="couponCell" textLabel="AOO-9d-AEO" detailTextLabel="nZa-lO-ffV" rowHeight="86" style="IBUITableViewCellStyleValue1" id="kfi-pA-fTf">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="couponCell" textLabel="AOO-9d-AEO" detailTextLabel="nZa-lO-ffV" imageView="pI0-4X-cYT" rowHeight="86" style="IBUITableViewCellStyleValue1" id="kfi-pA-fTf">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kfi-pA-fTf" id="sYv-nF-gas">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Coffee" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AOO-9d-AEO">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Frappuccino" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AOO-9d-AEO">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -149,8 +152,14 @@
                                             <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="frap.jpeg" id="pI0-4X-cYT">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="V3V-Ml-igg" kind="presentation" identifier="redeem" id="liT-fi-9JE"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -165,7 +174,49 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1f1-ne-NK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1930.5" y="2343.5"/>
+            <point key="canvasLocation" x="1930.5" y="2407.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RgM-FZ-bzq">
+            <objects>
+                <viewController id="ANO-MR-wOa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YHv-1s-z9U"/>
+                        <viewControllerLayoutGuide type="bottom" id="B4Y-vP-030"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ghF-yI-mZi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QYt-5N-wxP">
+                                <rect key="frame" x="67" y="270" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You've defeated somethingmon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qs-62-16M">
+                                <rect key="frame" x="45" y="79" width="285" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here's a special something to a place that sells coffee" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Px6-4r-5rW">
+                                <rect key="frame" x="58" y="128" width="246" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qrcode.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qdt-Uw-lfe">
+                                <rect key="frame" x="137" y="421" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NuW-5b-KK4">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="GJQ-86-KPK"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3d-zV-X8l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2155.5" y="3220.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s9g-i1-MCI">
@@ -322,7 +373,7 @@ Earn levels and coupons by defeating cajamons!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="skL-lI-VTI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1522.5" y="2343.5"/>
+            <point key="canvasLocation" x="1522.5" y="2407.5"/>
         </scene>
         <!--CAJAdex-->
         <scene sceneID="34I-50-92Y">
@@ -362,8 +413,46 @@ Earn levels and coupons by defeating cajamons!</string>
             </objects>
             <point key="canvasLocation" x="1930.5" y="1591.5"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KU5-ea-vXN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZK4-ZO-rf5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oXk-cY-COg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Rkc-Pt-tV0" kind="relationship" relationship="rootViewController" id="jcg-sx-NmC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p73-f0-kVm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737.5" y="3220.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bpq-2W-EiF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V3V-Ml-igg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GeR-Ug-8sg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ANO-MR-wOa" kind="relationship" relationship="rootViewController" id="Usk-sJ-QcV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7zm-xa-5pU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1652.5" y="3220.5"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="frap.jpeg" width="180" height="280"/>
+        <image name="qrcode.png" width="407" height="407"/>
         <image name="squirtle.jpg" width="630" height="756"/>
     </resources>
 </document>

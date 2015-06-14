@@ -37,7 +37,6 @@ class howItWorks: UIViewController {
             let blurEffectView = UIVisualEffectView(effect: blurEffect)
             blurEffectView.frame = view.bounds
             view.addSubview(blurEffectView)
-            
             blurEffectView.setTranslatesAutoresizingMaskIntoConstraints(false)
             view.addConstraint(NSLayoutConstraint(item: blurEffectView, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: view, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: 0))
             view.addConstraint(NSLayoutConstraint(item: blurEffectView, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: view, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0))

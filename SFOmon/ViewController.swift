@@ -22,12 +22,10 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
         //font customization
         splashTitle.text = "CAJAmon"
         splashTitle.font =  UIFont(name: "PokemonGB", size: 46)
-
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
         // Dispose of any resources that can be recreated.
     }
 
@@ -37,6 +35,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return UIModalPresentationStyle.None
     }
+    
     // __________________________________________________________________________
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

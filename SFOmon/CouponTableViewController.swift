@@ -20,8 +20,6 @@ class CouponTableViewController: UITableViewController {
         nav?.titleTextAttributes =  [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Thin", size: 26)!,  NSForegroundColorAttributeName: UIColor.blackColor()]
         nav?.tintColor = UIColor.blackColor()
         self.navigationController?.barHideOnTapGestureRecognizer
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -33,17 +31,18 @@ class CouponTableViewController: UITableViewController {
         return coupon.count
     }
     
-    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         var cell = tableView.dequeueReusableCellWithIdentifier("couponCell") as! UITableViewCell
-        
         cell.textLabel!.text = coupon[indexPath.row]
-        
         var imageName = UIImage(named: coupon[indexPath.row])
         cell.imageView!.image = imageName
         
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, accessoryButtonTappedForRowWithIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("redeem", sender: tableView.cellForRowAtIndexPath(indexPath))
     }
     
     

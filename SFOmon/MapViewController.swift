@@ -19,7 +19,6 @@ class MapViewController: UIViewController {
         nav?.titleTextAttributes =  [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Thin", size: 26)!,  NSForegroundColorAttributeName: UIColor.blackColor()]
         nav?.tintColor = UIColor.blackColor()
         self.navigationController?.barHideOnTapGestureRecognizer
-        
     }
 
     override func didReceiveMemoryWarning() {
