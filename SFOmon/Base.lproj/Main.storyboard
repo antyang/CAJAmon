@@ -47,7 +47,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cajaDexCell" rowHeight="86" id="uis-5p-HIk">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="cajaDexCell" rowHeight="86" id="uis-5p-HIk">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uis-5p-HIk" id="gu1-Hd-1rg">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -59,11 +59,7 @@
                             <outlet property="delegate" destination="LHY-aQ-JbI" id="HOK-oq-Nd7"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="PokeDex" id="jqV-mw-13Q">
-                        <barButtonItem key="rightBarButtonItem" title="Edit" id="gI2-7I-LUw">
-                            <color key="tintColor" red="0.023529414087533951" green="0.0078431377187371254" blue="0.035294119268655777" alpha="1" colorSpace="deviceRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="PokeDex" id="jqV-mw-13Q"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lTU-Fh-Hkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -92,7 +88,7 @@
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Redeem" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nZa-lO-ffV">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                             <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -107,7 +103,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Coupons" id="zhc-YN-PJT">
                         <barButtonItem key="leftBarButtonItem" id="0aD-F4-f5T"/>
-                        <barButtonItem key="rightBarButtonItem" title="Edit" id="69C-e8-ZmS"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
