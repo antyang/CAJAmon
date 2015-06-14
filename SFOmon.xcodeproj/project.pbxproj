@@ -12,6 +12,7 @@
 		032085CB1B2DBEC200F666B2 /* squirtle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 032085CA1B2DBEC200F666B2 /* squirtle.jpg */; };
 		032085CD1B2DC11D00F666B2 /* frap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 032085CC1B2DC11D00F666B2 /* frap.jpeg */; };
 		032085CF1B2DC1A900F666B2 /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 032085CE1B2DC1A900F666B2 /* qrcode.png */; };
+		032085D31B2DC77700F666B2 /* gameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032085D21B2DC77700F666B2 /* gameLogic.swift */; };
 		0379D4C91B2CEAA600F6478D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4C81B2CEAA600F6478D /* AppDelegate.swift */; };
 		0379D4CC1B2CEAA600F6478D /* SFOmon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4CA1B2CEAA600F6478D /* SFOmon.xcdatamodeld */; };
 		0379D4CE1B2CEAA600F6478D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4CD1B2CEAA600F6478D /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		032085CA1B2DBEC200F666B2 /* squirtle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squirtle.jpg; sourceTree = "<group>"; };
 		032085CC1B2DC11D00F666B2 /* frap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frap.jpeg; sourceTree = "<group>"; };
 		032085CE1B2DC1A900F666B2 /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
+		032085D21B2DC77700F666B2 /* gameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameLogic.swift; sourceTree = "<group>"; };
 		0379D4C31B2CEAA600F6478D /* SFOmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFOmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0379D4C71B2CEAA600F6478D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0379D4C81B2CEAA600F6478D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				0379D4F51B2D6C9500F6478D /* howItWorks.swift */,
 				032085C61B2DA61300F666B2 /* CAJADexTableViewController.swift */,
 				0379D4F81B2D731400F6478D /* MapViewController.swift */,
+				032085D21B2DC77700F666B2 /* gameLogic.swift */,
 				032085C81B2DA62500F666B2 /* CouponTableViewController.swift */,
 				0379D4CF1B2CEAA600F6478D /* Main.storyboard */,
 				0379D4D21B2CEAA600F6478D /* Images.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				032085C91B2DA62500F666B2 /* CouponTableViewController.swift in Sources */,
 				0379D4F61B2D6C9500F6478D /* howItWorks.swift in Sources */,
+				032085D31B2DC77700F666B2 /* gameLogic.swift in Sources */,
 				0379D4CE1B2CEAA600F6478D /* ViewController.swift in Sources */,
 				032085C71B2DA61300F666B2 /* CAJADexTableViewController.swift in Sources */,
 				0379D4C91B2CEAA600F6478D /* AppDelegate.swift in Sources */,
