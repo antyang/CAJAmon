@@ -52,6 +52,9 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uis-5p-HIk" id="gu1-Hd-1rg">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Rkc-Pt-tV0" kind="presentation" identifier="checkMonster" id="bBv-OS-Zpb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -65,6 +68,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lTU-Fh-Hkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1109.5" y="2343.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZWa-mf-RC8">
+            <objects>
+                <viewController id="Rkc-Pt-tV0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3AF-bS-svh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pvz-Wi-jR7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KhL-uP-Ylw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="squirtle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xy6-nK-daC">
+                                <rect key="frame" x="100" y="28" width="174" height="170"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kld-YW-FrV">
+                                <rect key="frame" x="130" y="226" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUH-ol-wgn">
+                                <rect key="frame" x="53" y="280" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ww1-7V-Qo0">
+                                <rect key="frame" x="53" y="309" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ve-VD-4PF">
+                                <rect key="frame" x="53" y="338" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monster stats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="df2-Jw-Ky8">
+                                <rect key="frame" x="53" y="367" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Jf-C6-Tt1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109.5" y="3154.5"/>
         </scene>
         <!--Coupons-->
         <scene sceneID="jWb-4h-hrf">
@@ -194,9 +251,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yxX-VO-JeQ" secondAttribute="height" multiplier="317:239" id="pcU-py-kSG"/>
                                 </constraints>
-                                <string key="text">Simply walking around the terminal and fight different CAJAmon.
+                                <string key="text">Simply walking around the terminal and fight different cajamons.
 
-Earn levels and coupons by defeating CAJAmon!</string>
+Earn levels and coupons by defeating cajamons!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="light"/>
                             </textView>
@@ -306,4 +363,7 @@ Earn levels and coupons by defeating CAJAmon!</string>
             <point key="canvasLocation" x="1930.5" y="1591.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="squirtle.jpg" width="630" height="756"/>
+    </resources>
 </document>

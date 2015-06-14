@@ -48,6 +48,9 @@ class CAJADexTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, accessoryButtonTappedForRowWithIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("checkMonster", sender: tableView.cellForRowAtIndexPath(indexPath))
+    }
     
     
 
