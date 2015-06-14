@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D54865CE-0CE3-4468-B6D9-0BED85597CD6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SFOmon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>504AC2959E5CB3CFD539A7D08B6C3D767C5204E6</key>
+		<string>https://github.com/antyang/CAJAmon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SFOmon.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>504AC2959E5CB3CFD539A7D08B6C3D767C5204E6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/antyang/CAJAmon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>504AC2959E5CB3CFD539A7D08B6C3D767C5204E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>504AC2959E5CB3CFD539A7D08B6C3D767C5204E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CAJAmon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

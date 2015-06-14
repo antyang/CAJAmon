@@ -25,8 +25,6 @@ class GameLogic: UIViewController {
     var enemy_health_text = ""
     var game_over = 0;
     
-    
-    
     @IBOutlet weak var yourHealth: UILabel!
     @IBOutlet weak var enemyHealth: UILabel!
     @IBOutlet weak var actionDescription: UILabel!
@@ -165,6 +163,7 @@ class GameLogic: UIViewController {
             game_over = 1;
             enemy_health = 100;
             disable_buttons()
+            performSegueWithIdentifier("gameEndSegue", sender: nil)
         }
         else if your_status == "asleep" {
             display = "You Pokemon is asleep"
@@ -256,7 +255,7 @@ class GameLogic: UIViewController {
     func pika_scratch(){
         damage_given = Int(arc4random_uniform(UInt32(10)))
         enemy_health -= damage_given
-        display = "You used SCRATCH and did \(damage_given) damage"
+        display = "You used PUNCH and did \(damage_given) damage"
         fight_status()
     }
     

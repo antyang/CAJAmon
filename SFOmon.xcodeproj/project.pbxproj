@@ -27,10 +27,12 @@
 		0379D4F41B2D57BC00F6478D /* PokemonGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4F21B2D57BC00F6478D /* PokemonGB.ttf */; };
 		0379D4F61B2D6C9500F6478D /* howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F51B2D6C9500F6478D /* howItWorks.swift */; };
 		0379D4F71B2D6C9500F6478D /* howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F51B2D6C9500F6478D /* howItWorks.swift */; };
-		0379D4F91B2D731400F6478D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F81B2D731400F6478D /* MapViewController.swift */; };
-		0379D4FA1B2D731400F6478D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0379D4F81B2D731400F6478D /* MapViewController.swift */; };
 		0379D4FC1B2D896D00F6478D /* pokebanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4FB1B2D896D00F6478D /* pokebanner.png */; };
 		0379D4FD1B2D896D00F6478D /* pokebanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 0379D4FB1B2D896D00F6478D /* pokebanner.png */; };
+		8227E9A01B2DCCE70056BD67 /* ParkMapOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227E99F1B2DCCE70056BD67 /* ParkMapOverlayView.swift */; };
+		8227E9A21B2DCCEC0056BD67 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227E9A11B2DCCEC0056BD67 /* File.swift */; };
+		8285AE8E1B2DCDD8007E0E55 /* RequestsFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE8D1B2DCDD8007E0E55 /* RequestsFramework.swift */; };
+		8285AE901B2DCE46007E0E55 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE8F1B2DCE46007E0E55 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +69,11 @@
 		0379D4EE1B2D3BA000F6478D /* backgroundsfo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundsfo1.png; sourceTree = "<group>"; };
 		0379D4F21B2D57BC00F6478D /* PokemonGB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonGB.ttf; sourceTree = "<group>"; };
 		0379D4F51B2D6C9500F6478D /* howItWorks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = howItWorks.swift; sourceTree = "<group>"; };
-		0379D4F81B2D731400F6478D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0379D4FB1B2D896D00F6478D /* pokebanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokebanner.png; sourceTree = "<group>"; };
+		8227E99F1B2DCCE70056BD67 /* ParkMapOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkMapOverlayView.swift; sourceTree = "<group>"; };
+		8227E9A11B2DCCEC0056BD67 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		8285AE8D1B2DCDD8007E0E55 /* RequestsFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestsFramework.swift; path = ../RequestsFramework.swift; sourceTree = "<group>"; };
+		8285AE8F1B2DCE46007E0E55 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +115,14 @@
 		0379D4C51B2CEAA600F6478D /* SFOmon */ = {
 			isa = PBXGroup;
 			children = (
+				8285AE8D1B2DCDD8007E0E55 /* RequestsFramework.swift */,
 				0379D4C81B2CEAA600F6478D /* AppDelegate.swift */,
 				0379D4CD1B2CEAA600F6478D /* ViewController.swift */,
 				0379D4F51B2D6C9500F6478D /* howItWorks.swift */,
 				032085C61B2DA61300F666B2 /* CAJADexTableViewController.swift */,
-				0379D4F81B2D731400F6478D /* MapViewController.swift */,
+				8285AE8F1B2DCE46007E0E55 /* MapViewController.swift */,
+				8227E99F1B2DCCE70056BD67 /* ParkMapOverlayView.swift */,
+				8227E9A11B2DCCEC0056BD67 /* File.swift */,
 				032085D21B2DC77700F666B2 /* gameLogic.swift */,
 				032085C81B2DA62500F666B2 /* CouponTableViewController.swift */,
 				0379D4CF1B2CEAA600F6478D /* Main.storyboard */,
@@ -270,13 +278,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8227E9A01B2DCCE70056BD67 /* ParkMapOverlayView.swift in Sources */,
 				032085C91B2DA62500F666B2 /* CouponTableViewController.swift in Sources */,
 				0379D4F61B2D6C9500F6478D /* howItWorks.swift in Sources */,
 				032085D31B2DC77700F666B2 /* gameLogic.swift in Sources */,
 				0379D4CE1B2CEAA600F6478D /* ViewController.swift in Sources */,
 				032085C71B2DA61300F666B2 /* CAJADexTableViewController.swift in Sources */,
 				0379D4C91B2CEAA600F6478D /* AppDelegate.swift in Sources */,
-				0379D4F91B2D731400F6478D /* MapViewController.swift in Sources */,
+				8285AE8E1B2DCDD8007E0E55 /* RequestsFramework.swift in Sources */,
+				8227E9A21B2DCCEC0056BD67 /* File.swift in Sources */,
+				8285AE901B2DCE46007E0E55 /* MapViewController.swift in Sources */,
 				0379D4CC1B2CEAA600F6478D /* SFOmon.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0379D4F71B2D6C9500F6478D /* howItWorks.swift in Sources */,
-				0379D4FA1B2D731400F6478D /* MapViewController.swift in Sources */,
 				0379D4E21B2CEAA600F6478D /* SFOmonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
