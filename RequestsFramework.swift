@@ -243,6 +243,8 @@ public class Requests {
     }
     
     
+
+    
     public func isConnectedToNetwork() -> Bool {
         
         var Status:Bool = false

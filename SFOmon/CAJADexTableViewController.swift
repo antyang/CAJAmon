@@ -11,7 +11,8 @@ import UIKit
 class CAJADexTableViewController: UITableViewController {
 
     // layout pokemonglers
-    let stuff = ["a","b","c","d","e"]
+    var stuff = [Dictionary<String,String>]()
+    var newPokemon: String? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,15 @@ class CAJADexTableViewController: UITableViewController {
         nav?.titleTextAttributes =  [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Thin", size: 26)!,  NSForegroundColorAttributeName: UIColor.blackColor()]
         nav?.tintColor = UIColor.blackColor()
         self.navigationController?.barHideOnTapGestureRecognizer
+        
+        
+        if let pokemon = newPokemon {
+            stuff.append([
+                "name": pokemon,
+                "health": "200"
+                ])
+            self.tableView.reloadData()
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,13 +42,13 @@ class CAJADexTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return stuff.count
     }
-    
+
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         var cell = tableView.dequeueReusableCellWithIdentifier("cajaDexCell") as! UITableViewCell
-        cell.textLabel!.text = stuff[indexPath.row]
-        var imageName = UIImage(named: stuff[indexPath.row])
-        cell.imageView!.image = imageName
+        cell.textLabel!.text = stuff[indexPath.row]["name"]!
+//        var imageName = UIImage(named: stuff[indexPath.row]["] as! String)
+//        cell.imageView!.image = imageName
         return cell
     }
     

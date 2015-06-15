@@ -9,6 +9,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     var manager = CLLocationManager()
     var locations = [Dictionary<String,AnyObject>]()
     let server = Requests(server: "http://172.31.59.112:3000")
+    var play = false
     
     override func viewDidLoad() {
         var nav = self.navigationController?.navigationBar
@@ -58,7 +59,14 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
                     "name": object["name"] as! String
                     ])
             }
+            println("Got Stufff:", returnedData.count)
+            self.play = true
         }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        manager.startUpdatingLocation()
     }
     
     func locationManager(manager:CLLocationManager, didUpdateLocations locations:[AnyObject]) {
@@ -73,9 +81,22 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         //Random chance to fight pokemon
         let random = arc4random_uniform(10)
         println(random)
-        if random == 9 {
+        if random == 9 && play {
             performSegueWithIdentifier("gameStartSegue", sender: nil)
             manager.stopUpdatingLocation()
+        }
+    }
+    
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "gameStartSegue" {
+            let svc = segue.destinationViewController as! GameLogic
+            for location in locations {
+                if location["name"] as! String == "Starbucks" {
+                    svc.location = location
+                }
+            }
         }
     }
     

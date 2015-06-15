@@ -25,6 +25,8 @@ class GameLogic: UIViewController {
     var enemy_health_text = ""
     var game_over = 0;
     
+    var location: [String:AnyObject]? = nil
+    
     @IBOutlet weak var yourHealth: UILabel!
     @IBOutlet weak var enemyHealth: UILabel!
     @IBOutlet weak var actionDescription: UILabel!
@@ -155,7 +157,7 @@ class GameLogic: UIViewController {
             game_over = 1;
             health = 100;
             disable_buttons()
-            
+            dismissViewControllerAnimated(true, completion: nil)
         }
         else if enemy_health <= 0{
             display = "You captured \(current_enemy)!"
@@ -164,6 +166,7 @@ class GameLogic: UIViewController {
             enemy_health = 100;
             disable_buttons()
             performSegueWithIdentifier("gameEndSegue", sender: nil)
+            println(location)
         }
         else if your_status == "asleep" {
             display = "You Pokemon is asleep"
@@ -174,6 +177,13 @@ class GameLogic: UIViewController {
             //code here
         }
         
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "gameEndSegue" {
+            let svc = segue.destinationViewController as! CouponView
+            svc.location = location!
+        }
     }
     
     // COIN FLIP FUNCTION TO DETERMINE BETWEEN TWO OUTCOMES
